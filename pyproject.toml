@@ -1,0 +1,35 @@
+[project]
+name = "bruteforce-detector"
+version = "0.1.0"
+description = "Detecta brute force, password spraying e ataques distribuidos em logs de autenticacao"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+detector = "detector.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["detector*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 90
+
+[tool.ruff.lint]
+# Conjunto explicito: o CI e a maquina do dev checam exatamente o mesmo.
+# DTZ (datetimes com fuso) fica de fora de proposito: o projeto usa
+# datetimes naive porque compara horario de log com horario de log, e
+# misturar aware/naive quebraria a comparacao. Ver docstring de detection.py.
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]

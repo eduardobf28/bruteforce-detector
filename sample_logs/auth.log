@@ -1,0 +1,50 @@
+Aug 17 03:00:02 srv-web-01 sshd[31716]: Accepted password for www-data from 192.0.2.20 port 51988 ssh2
+Aug 17 03:00:49 srv-web-01 sshd[50322]: Accepted password for postgres from 192.0.2.15 port 51791 ssh2
+Aug 17 03:01:36 srv-web-01 sshd[57824]: Accepted password for ubuntu from 192.0.2.20 port 46715 ssh2
+Aug 17 03:02:23 srv-web-01 sshd[76242]: Accepted password for eduardo from 192.0.2.15 port 53065 ssh2
+Aug 17 03:03:10 srv-web-01 sshd[50743]: Accepted password for postgres from 192.0.2.15 port 53217 ssh2
+Aug 17 03:03:55 srv-web-01 sshd[42293]: Failed password for eduardo from 192.0.2.15 port 59479 ssh2
+Aug 17 03:04:44 srv-web-01 sshd[44715]: Accepted password for deploy from 192.0.2.15 port 59811 ssh2
+Aug 17 03:05:31 srv-web-01 sshd[91090]: Accepted password for deploy from 192.0.2.20 port 42205 ssh2
+Aug 17 03:06:18 srv-web-01 sshd[95579]: Accepted password for www-data from 192.0.2.10 port 42367 ssh2
+Aug 17 03:07:05 srv-web-01 sshd[35824]: Accepted password for www-data from 192.0.2.10 port 40561 ssh2
+Aug 17 03:07:52 srv-web-01 sshd[84537]: Accepted password for eduardo from 192.0.2.15 port 46441 ssh2
+Aug 17 03:08:39 srv-web-01 sshd[39989]: Accepted password for postgres from 192.0.2.10 port 50931 ssh2
+Aug 17 03:10:00 srv-web-01 sshd[82038]: Failed password for root from 203.0.113.45 port 41000 ssh2
+Aug 17 03:10:03 srv-web-01 sshd[16007]: Failed password for root from 203.0.113.45 port 41001 ssh2
+Aug 17 03:10:06 srv-web-01 sshd[82798]: Failed password for root from 203.0.113.45 port 41002 ssh2
+Aug 17 03:10:09 srv-web-01 sshd[94640]: Failed password for root from 203.0.113.45 port 41003 ssh2
+Aug 17 03:10:12 srv-web-01 sshd[50278]: Failed password for root from 203.0.113.45 port 41004 ssh2
+Aug 17 03:10:15 srv-web-01 sshd[38003]: Failed password for root from 203.0.113.45 port 41005 ssh2
+Aug 17 03:10:18 srv-web-01 sshd[90137]: Failed password for root from 203.0.113.45 port 41006 ssh2
+Aug 17 03:10:21 srv-web-01 sshd[33697]: Failed password for root from 203.0.113.45 port 41007 ssh2
+Aug 17 03:10:24 srv-web-01 sshd[79347]: Failed password for root from 203.0.113.45 port 41008 ssh2
+Aug 17 03:10:27 srv-web-01 sshd[79037]: Failed password for root from 203.0.113.45 port 41009 ssh2
+Aug 17 03:10:30 srv-web-01 sshd[79264]: Failed password for root from 203.0.113.45 port 41010 ssh2
+Aug 17 03:10:33 srv-web-01 sshd[34246]: Failed password for root from 203.0.113.45 port 41011 ssh2
+Aug 17 03:10:36 srv-web-01 sshd[96853]: Failed password for root from 203.0.113.45 port 41012 ssh2
+Aug 17 03:10:39 srv-web-01 sshd[16610]: Failed password for root from 203.0.113.45 port 41013 ssh2
+Aug 17 03:15:00 srv-web-01 sshd[74836]: Failed password for invalid user admin from 203.0.113.99 port 45000 ssh2
+Aug 17 03:15:06 srv-web-01 sshd[86514]: Failed password for invalid user root from 203.0.113.99 port 45001 ssh2
+Aug 17 03:15:12 srv-web-01 sshd[69662]: Failed password for invalid user test from 203.0.113.99 port 45002 ssh2
+Aug 17 03:15:18 srv-web-01 sshd[13219]: Failed password for invalid user guest from 203.0.113.99 port 45003 ssh2
+Aug 17 03:15:24 srv-web-01 sshd[78458]: Failed password for invalid user oracle from 203.0.113.99 port 45004 ssh2
+Aug 17 03:15:30 srv-web-01 sshd[73909]: Failed password for invalid user jenkins from 203.0.113.99 port 45005 ssh2
+Aug 17 03:15:36 srv-web-01 sshd[81083]: Failed password for invalid user backup from 203.0.113.99 port 45006 ssh2
+Aug 17 03:15:42 srv-web-01 sshd[95747]: Failed password for invalid user ftpuser from 203.0.113.99 port 45007 ssh2
+Aug 17 03:20:00 srv-web-01 sshd[56217]: Failed password for admin from 198.51.100.11 port 50000 ssh2
+Aug 17 03:20:07 srv-web-01 sshd[83187]: Failed password for admin from 198.51.100.24 port 50001 ssh2
+Aug 17 03:20:14 srv-web-01 sshd[84576]: Failed password for admin from 198.51.100.37 port 50002 ssh2
+Aug 17 03:20:21 srv-web-01 sshd[94497]: Failed password for admin from 198.51.100.48 port 50003 ssh2
+Aug 17 03:20:28 srv-web-01 sshd[43723]: Failed password for admin from 198.51.100.59 port 50004 ssh2
+Aug 17 03:20:35 srv-web-01 sshd[44311]: Failed password for admin from 198.51.100.61 port 50005 ssh2
+Aug 17 03:20:42 srv-web-01 sshd[18754]: Failed password for admin from 198.51.100.72 port 50006 ssh2
+Aug 17 03:25:00 srv-web-01 sshd[27103]: Failed password for deploy from 192.0.2.66 port 52000 ssh2
+Aug 17 03:25:04 srv-web-01 sshd[17720]: Failed password for deploy from 192.0.2.66 port 52001 ssh2
+Aug 17 03:25:08 srv-web-01 sshd[32297]: Failed password for deploy from 192.0.2.66 port 52002 ssh2
+Aug 17 03:25:12 srv-web-01 sshd[51424]: Failed password for deploy from 192.0.2.66 port 52003 ssh2
+Aug 17 03:25:16 srv-web-01 sshd[20279]: Failed password for deploy from 192.0.2.66 port 52004 ssh2
+Aug 17 03:25:20 srv-web-01 sshd[35148]: Failed password for deploy from 192.0.2.66 port 52005 ssh2
+Aug 17 03:25:24 srv-web-01 sshd[67600]: Failed password for deploy from 192.0.2.66 port 52006 ssh2
+Aug 17 03:25:28 srv-web-01 sshd[80835]: Failed password for deploy from 192.0.2.66 port 52007 ssh2
+Aug 17 03:25:36 srv-web-01 sshd[43167]: Accepted password for deploy from 192.0.2.66 port 52099 ssh2
